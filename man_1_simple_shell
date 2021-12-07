@@ -1,0 +1,43 @@
+# cat /usr/local/man/man1/test_script.1
+." Process this file with
+." groff -man -Tascii test_script.1
+."
+
+.TH simple_shell(1)
+.Sh NAME
+.B simple_shell
+- user interface to perform some task
+
+.SH SYNOPSIS
+.B test_script
+.RB {| OBJECT |}
+.RB [| OPTIONS |]
+
+.SH DESCRIPTION
+This script can perform all these tasks and must be executed as root user. More information on the tasks performed is explained below:
+.RS
+.nf
+- Performs task 1
+- Performs task 2
+- Performs task 3
+- Performs task 4
+.RE
+
+This is a test script for man page template. Place brief description here.
+
+.SH OBJECT
+.TP
+.B -^-a1|-arg1 <arg1_value>
+Provide arg1_value. Must be fIintegerfR. Provide more hint for the user related to arg1_value
+.SH COPYRIGHT
+.PP
+Copyright 2019 GoLinuxCloud. All rights reserved
+https://www.golinuxcloud.com
+
+.SH CREDITS
+.PP
+This man page is created only for demonstration purpose by Deepak Prasad <admin@golinuxcloud.com>
+
+.SH
+.PP
+GoLinuxCloud test_script(1)
